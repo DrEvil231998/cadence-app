@@ -41,7 +41,7 @@ export default async function handler(req, res) {
         'X-Title': 'Cadence Personal OS',
       },
       body: JSON.stringify({
-        model: 'meta-llama/llama-3.1-8b-instruct:free',
+        model: 'openai/gpt-oss-120b:free',
         max_tokens: 400,
         messages: [
           { role: 'system', content: systemPrompt },
