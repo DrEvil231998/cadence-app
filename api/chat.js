@@ -41,7 +41,7 @@ export default async function handler(req, res) {
         'X-Title': 'Cadence Personal OS',
       },
       body: JSON.stringify({
-        model: 'openai/gpt-oss-120b:free',
+        model: 'openrouter/free',
         max_tokens: 400,
         messages: [
           { role: 'system', content: systemPrompt },
